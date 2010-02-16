@@ -2,11 +2,17 @@
 	"name": "Google Site Search",
 	"version": "1.0",
 
-	"description": "Search site using Google search",
+	"description": "Search any site using Google search.",
+	"icons": {
+		"19":	"img/icon19.png",
+		"32":	"img/icon32.png",
+		"48":	"img/icon48.png",
+		"128":	"img/icon128.png"
+	},
 
 	"browser_action": {
 		"default_title": "Search on site",
-		"default_icon": "img/search2.png",
+		"default_icon": "img/icon19.png",
 		"popup": "popup.html"
 	},
 

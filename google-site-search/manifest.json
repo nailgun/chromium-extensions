@@ -1,0 +1,16 @@
+{
+	"name": "Google Site Search",
+	"version": "1.0",
+
+	"description": "Search site using Google search",
+
+	"browser_action": {
+		"default_title": "Search on site",
+		"default_icon": "img/search2.png",
+		"popup": "popup.html"
+	},
+
+	"permissions": [
+		"tabs"
+	]
+}
